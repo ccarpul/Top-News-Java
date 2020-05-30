@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/padding_scrollview"
+    app:cardBackgroundColor="@color/background_cardview"
+    app:cardCornerRadius="@dimen/corner_card_view"
+    app:contentPadding="@dimen/cardViewElevation">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/urlToImage"
+                    android:layout_width="@dimen/width_image_list_article"
+                    android:layout_height="@dimen/height_image_list_article"
+                    android:contentDescription="@string/imageDescription" />
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/urlToImage"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@color/color_black_letters"
+                    android:maxLength="14"
+                    android:maxLines="1"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/color_white_letters"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold"
+                    tool:text="ID" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/urlToImage"
+                    android:layout_marginEnd="-96dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@color/color_black_letters"
+                    android:maxLength="16"
+                    android:maxLines="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/color_white_letters"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold"
+                    tool:text="Name" />
+
+            </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textColor="@color/design_default_color_primary_dark"
+                    android:textSize="@dimen/textsize_title_list_article"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_vertical"
+                    tool:text="Title" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize_description_article"
+            tool:text="Description" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/textsize_description_article"
+            android:textStyle="bold"
+            tool:text="Content" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:textSize="@dimen/textSize"
+            tool:text="Author"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/publishedAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="24"
+            android:maxLines="1"
+            android:textSize="@dimen/textSize"
+            tool:text="Published At" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">10sp</dimen>
+    <dimen name="elevation_toolbar">4dp</dimen>
+    <dimen name="corner_card_view">4dp</dimen>
+    <dimen name="margin_top_recyclerview">5dp</dimen>
+    <dimen name="padding_scrollview">10dp</dimen>
+    <dimen name="padding_scrollview_selected_article">10dp</dimen>
+
+    <dimen name="textsize_title_list_article">22sp</dimen>
+    <dimen name="textSize_title_selected_article">32dp</dimen>
+    <dimen name="textsize_title_toolbar">30sp</dimen>
+    <dimen name="textsize_author">12dp</dimen>
+    <dimen name="textsize_url_list_article">18dp</dimen>
+    <dimen name="textsize_description_article">14sp</dimen>
+    <dimen name="textsize_description_article_selected_article">26dp</dimen>
+
+    <dimen name="width_image_list_article">180dp</dimen>
+    <dimen name="height_image_list_article">150dp</dimen>
+
+    <dimen name="height_viewline_list_article">2dp</dimen>
+    <dimen name="height_image_selected_article">32dp</dimen>
+
+    <dimen name="width_back_arrow">60dp</dimen>
+    <dimen name="height_back_arrow">70dp</dimen>
+
+    <dimen name="refresher_offset">220dp</dimen>
+    <dimen name="refresher_offset_end">230dp</dimen>
+
+    <dimen name="width_spinner_filter">90dp</dimen>
+    <dimen name="padding_spinner_filter">2dp</dimen>
+
+    <dimen name="width_edit_key_word">80dp</dimen>
+    <dimen name="textsize_spinner_filter">20sp</dimen>
+    <dimen name="margin_top_spinner">5dp</dimen>
+    <dimen name="width_image_spinner">25dp</dimen>
+    <dimen name="height_image_spinner">25dp</dimen>
+
+
+    <dimen name="height_head_navigation_drawer">160dp</dimen>
+    <dimen name="padding_layout_navigation_drawer">20dp</dimen>
+    <dimen name="margin_top_layout_navigation_drawer">140dp</dimen>
+    <dimen name="height_fields_navigation_drawer">50dp</dimen>
+
+    <dimen name="padding_right_image_date">20dp</dimen>
+    <dimen name="cardViewElevation">4dp</dimen>
+
+</resources>
