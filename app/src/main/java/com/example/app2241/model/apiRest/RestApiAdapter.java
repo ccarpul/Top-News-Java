@@ -1,5 +1,6 @@
-package com.example.app2241.apiRest;
+package com.example.app2241.model.apiRest;
 
+import com.example.app2241.model.apiRest.service.NewsApi;
 import com.example.app2241.model.Model;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

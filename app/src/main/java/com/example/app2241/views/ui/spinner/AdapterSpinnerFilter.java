@@ -1,4 +1,4 @@
-package com.example.app2241.ui.spinner;
+package com.example.app2241.views.ui.spinner;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.app2241.R;

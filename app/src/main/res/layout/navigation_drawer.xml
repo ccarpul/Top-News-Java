@@ -9,7 +9,7 @@
     android:background="@color/background_cardview"
     android:orientation="vertical"
     android:padding="@dimen/padding_layout_navigation_drawer"
-    tools:context=".MainActivity">
+    tools:context=".views.MainActivity">
 
         <EditText
             android:id="@+id/edit_key_word"

@@ -1,4 +1,5 @@
-package com.example.app2241.apiRest;
+package com.example.app2241.model.apiRest.service;
+import com.example.app2241.model.apiRest.ConstantUrl;
 import com.example.app2241.model.Model;
 
 import retrofit2.Call;

@@ -1,12 +1,10 @@
-package com.example.app2241.repository;
+package com.example.app2241.model.repository;
 
 import android.util.Log;
 
-import androidx.lifecycle.LiveData;
-
-import com.example.app2241.apiRest.NewsApi;
-import com.example.app2241.apiRest.OnResponse;
-import com.example.app2241.apiRest.RestApiAdapter;
+import com.example.app2241.model.apiRest.service.NewsApi;
+import com.example.app2241.model.apiRest.OnResponse;
+import com.example.app2241.model.apiRest.RestApiAdapter;
 import com.example.app2241.model.Elements;
 import com.example.app2241.model.Model;
 

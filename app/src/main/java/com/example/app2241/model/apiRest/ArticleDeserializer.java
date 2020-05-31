@@ -1,6 +1,4 @@
-package com.example.app2241.apiRest;
-
-import android.util.Log;
+package com.example.app2241.model.apiRest;
 
 import com.example.app2241.model.Elements;
 import com.example.app2241.model.Model;
@@ -15,8 +13,6 @@ import com.google.gson.JsonPrimitive;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-
-import static android.content.ContentValues.TAG;
 
 public class ArticleDeserializer implements JsonDeserializer<Model> {
     @Override

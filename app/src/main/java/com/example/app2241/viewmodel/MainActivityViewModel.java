@@ -1,12 +1,12 @@
-package com.example.app2241;
+package com.example.app2241.viewmodel;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.app2241.apiRest.OnResponse;
+import com.example.app2241.model.apiRest.OnResponse;
 import com.example.app2241.model.Model;
-import com.example.app2241.repository.ArticlesRepository;
+import com.example.app2241.model.repository.ArticlesRepository;
 
 public class MainActivityViewModel extends ViewModel {
 

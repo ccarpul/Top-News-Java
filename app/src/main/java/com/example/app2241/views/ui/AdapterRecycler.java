@@ -1,4 +1,4 @@
-package com.example.app2241.ui;
+package com.example.app2241.views.ui;
 
 import android.view.LayoutInflater;
 import android.view.View;

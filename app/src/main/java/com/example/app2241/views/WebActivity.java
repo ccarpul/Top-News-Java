@@ -1,4 +1,4 @@
-package com.example.app2241;
+package com.example.app2241.views;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +11,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+
+import com.example.app2241.R;
 
 
 public class WebActivity extends AppCompatActivity {

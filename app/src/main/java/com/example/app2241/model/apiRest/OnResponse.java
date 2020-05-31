@@ -1,4 +1,4 @@
-package com.example.app2241.apiRest;
+package com.example.app2241.model.apiRest;
 
 import com.example.app2241.model.Model;
 

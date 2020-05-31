@@ -1,4 +1,4 @@
-package com.example.app2241;
+package com.example.app2241.views;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -28,10 +28,12 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.app2241.apiRest.ConstantUrl;
+import com.example.app2241.R;
+import com.example.app2241.model.apiRest.ConstantUrl;
 import com.example.app2241.model.Model;
-import com.example.app2241.ui.AdapterRecycler;
-import com.example.app2241.ui.spinner.SettingSpinner;
+import com.example.app2241.views.ui.AdapterRecycler;
+import com.example.app2241.views.ui.spinner.SettingSpinner;
+import com.example.app2241.viewmodel.MainActivityViewModel;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;

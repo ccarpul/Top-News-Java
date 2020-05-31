@@ -1,4 +1,4 @@
-package com.example.app2241.ui.spinner;
+package com.example.app2241.views.ui.spinner;
 
 import android.app.Activity;
 import android.widget.Spinner;

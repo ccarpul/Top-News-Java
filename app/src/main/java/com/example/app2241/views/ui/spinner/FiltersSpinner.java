@@ -1,4 +1,4 @@
-package com.example.app2241.ui.spinner;
+package com.example.app2241.views.ui.spinner;
 
 public class FiltersSpinner {
 
